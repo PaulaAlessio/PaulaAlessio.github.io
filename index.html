@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>I am moving oute</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--  
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/javascript.js"> </script>
+-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/> 
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+  <script src="js/javascript.js"> </script>
+
+</head>
+<body>
+<div class="jumbotron">
+  <div class="container text-center">
+     <h1>Zu Verschenken</h1>
+     <p> 
+        <a href="https://goo.gl/maps/RFyPJT1N2LL2" 
+           data-toogle="tooptip" title="My trip">Wegen Umzug</a>
+     </p>
+ </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="images/madrid.jpg">
+          <img src="images/logo-madrid.jpg" data-toggle="tooltip" 
+               title="GranVia"  style="height:25px" alt="My Logo">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a  data-toggle="tooltip" title="Home"
+            href="index.html">Home</a>
+        </li>
+	<li class="dropdown">
+	   <a class="dropdown-toggle" data-toggle="dropdown" 
+              title="Products"
+              href="#">Products
+	      <span class="caret"><!-- --></span></a>
+	   <ul class="dropdown-menu">
+	      <li><a href="furniture.html">Furniture</a></li>
+	      <li><a href="household.html">Household</a></li>
+	      <li><a href="games.html">Games</a></li>
+	      <li><a href="sport.html">Sport</a></li>
+	      <li><a href="garden.html">Garden</a></li>
+	      <li><a href="cablesandothers.html">Cables and others</a></li>
+	   </ul>
+	</li>
+	<li class="dropdown">
+	   <a class="dropdown-toggle" data-toggle="dropdown" 
+              title="Contact"
+              href="#">Contact
+	      <span class="caret"><!-- --></span></a>
+	   <ul class="dropdown-menu">
+	      <li><a>paulaperezrubio[at]gmail.com</a></li>
+	      <li><a>paula.perez-rubio[at]ur.de</a></li>
+	   </ul>
+	</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">    
+   <div class="row">
+      <div class="col-sm-4">
+	 <div class="panel panel-primary">
+	    <div class="panel-heading" title="Furniture">Furniture</div>
+	    <div class="panel-body">
+	       <img id = "furniture" src="images/furniture/bed.jpg" 
+			      class="imagen"   alt="NOimage">
+	       <script>
+		  startTimer("furniture", furniture_imgs, "images/furniture/",
+      			     2e3) 
+	       </script>
+	    </div>
+	    <div class="panel-footer">Bed, chairs, bookshelfs ... </div>
+	 </div>
+      </div>
+      <div class="col-sm-4"> 
+	 <div class="panel panel-primary">
+	    <div class="panel-heading" title="Household"> Household </div>
+	    <div class="panel-body">
+	       <img id = "household" src="images/household/paperbin.jpg" 
+			      class="imagen"   alt="NOimage">
+	       <script>
+	          startTimer("household", household_imgs, "images/household/",
+      			     2500) 
+	       </script>
+	    </div>
+	    <div class="panel-footer"> paperbin, duvet, pillows ... </div>
+	 </div>
+      </div>
+      <div class="col-sm-4"> 
+	 <div class="panel panel-primary">
+	    <div class="panel-heading" title="Games">Games</div>
+	    <div class="panel-body">
+	       <img id = "games" src="images/games/anno_domini.jpg" 
+			      class="imagen"   alt="NOimage">
+	       <script>
+	          startTimer("games", games_imgs, "images/games/",
+      			     2500) 
+	       </script>
+             </div>
+	    <div class="panel-footer">Dominion, Seattlers of Catan, 
+                Carcassone ...</div>
+	 </div>
+      </div>
+   </div>
+</div><br>
+
+<div class="container">    
+   <div class="row">
+      <div class="col-sm-4">
+	 <div class="panel panel-primary">
+	    <div class="panel-heading" title="Sport">Sport</div>
+	    <div class="panel-body">
+	       <img id = "sport" src="images/sport/basketball.jpg" 
+			      class="imagen"   alt="NOimage">
+	       <script>
+	          startTimer("sport", sport_imgs, "images/sport/",
+      			     2500) 
+	       </script>
+   	    </div>
+	    <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+	 </div>
+      </div>
+      <div class="col-sm-4"> 
+	 <div class="panel panel-primary">
+	    <div class="panel-heading" title="Garden">Garden</div>
+	    <div class="panel-body">
+	       <img id = "garden" src="images/garden/maceta.jpg" 
+			      class="imagen"   alt="NOimage">
+	       <script>
+	          startTimer("garden", garden_imgs, "images/garden/",
+      			     2500) 
+	       </script>
+            </div>
+	    <div class="panel-footer">pots, planters ...</div>
+	 </div>
+      </div>
+      <div class="col-sm-4"> 
+	 <div class="panel panel-primary">
+	    <div class="panel-heading" title="Cables and others">Cables and others</div>
+	    <div class="panel-body"> 
+	       <img id = "cables" src="images/cables/nopics.png" 
+			      class="imagen"   alt="NOimage">
+	       <script>
+	          startTimer("cables", cables_imgs, "images/cables/",
+      			     2500) 
+	       </script>
+	    </div>
+	    <div class="panel-footer">Apotheke umbrella, cables ...</div>
+	 </div>
+      </div>
+   </div>
+</div><br><br>
+
+</body>
+</html>
+
+
