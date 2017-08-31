@@ -9,6 +9,7 @@ $(document).ready(function(){
 
 
 
+// This is to show a random sequence of images of different categories
 
 var furniture_imgs = ['beach_chair.jpg', 'bed.jpg', 'bookshelf.jpg', 
     'chair_1.jpg',  'chair_2.jpg', 'chair_3.jpg', 
@@ -17,7 +18,6 @@ var furniture_imgs = ['beach_chair.jpg', 'bed.jpg', 'bookshelf.jpg',
 var household_imgs = ['clotheshorse.jpg',  'dehumificator.jpg',  'duvet.jpg',  
     'paperbin.jpg',  'pillow.jpg',  'shoerack1.jpg',  'shoerack2.jpg']
 
-
 var games_imgs = ['anno_domini.jpg', 'carcassone.jpg', 'dominion_intrigue.jpg', 
 'puzzle_escher2.jpg', 'puzzle_marocco.jpg', 'puzzle_rizzi.jpg', 'suburbia.jpg',
 'back_gammon.jpg', 'dominion_bluetezeit.jpg', 'dominion_thealchimist.jpg',  
@@ -25,10 +25,8 @@ var games_imgs = ['anno_domini.jpg', 'carcassone.jpg', 'dominion_intrigue.jpg',
 'black_stories.jpg', 'dominion_darkages.jpg', 'puzzle_escher1.jpg',
 'puzzle_jovendelaperla.jpg', 'puzzle_paris.jpg', 'star_realms.jpg']
 
-
 var sport_imgs = ['basketball.jpg', 'bike1.jpg',  'bike2.jpg',  
     'bike_bjorn.jpg',  'football.jpg']
-
 
 var garden_imgs = ['jardineras.jpg', "maceta.jpg"]
 
@@ -43,15 +41,12 @@ function getRandomInt(min, max) {
 }
 
 function displayNextImage(id, imgs, path) {
-//    x = (x === imgs.length - 1) ? 0 : x + 1;
     x = getRandomInt(0,imgs.length-1)
     document.getElementById(id).src =  path + imgs[x];
 }
 
-
 function startTimer(id, imgs, path,t) {
     setInterval(function (){ displayNextImage(id, imgs, path)}, t);
-
 }
 
 

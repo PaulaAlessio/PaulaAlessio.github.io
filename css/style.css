@@ -15,18 +15,15 @@ footer {
   padding: 25px;
 }
 
-img.img-responsiv{
-   height:10px; 
-   width:10px;
-}
-
-img.imagen {
+img.img-responsive{
    margin-left:auto;
    margin-right:auto;
    display:block;
-   max-height: 250px;
+   max-height: 250px; !important
+   max-width: 250px; !important
    padding-top:5px;
 }
+
 
 /* Center icon vertically in navigation bar*/
 .navbar-nav > li > a  {
