@@ -20,6 +20,7 @@ img.img-responsive{
    margin-right:auto;
    display:block;
    max-height: 200px; !important
+   max-width: 200px; !important
    padding-top:5px;
 }
 
