@@ -8,6 +8,12 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(){
+       $('[data-toggle="popover"]').popover();   
+});
+
+
+
 
 // This is to show a random sequence of images of different categories
 
