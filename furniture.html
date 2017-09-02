@@ -34,10 +34,17 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"><!-- --></span>
+        <span class="icon-bar"><!-- --></span>
+        <span class="icon-bar"><!-- --></span>                        
+      </button>
       <a class="navbar-brand" href="images/madrid.jpg">
           <img src="images/logo-madrid.jpg" data-toggle="tooltip" 
                title="GranVia"  style="height:25px" alt="My Logo">
       </a>
+    </div>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -273,13 +280,9 @@
 	    <div class="panel-heading" title="Storage furniture">Storage furniture</div>
 	    <div class="panel-body">
 	       <img src="images/furniture/storage_furniture.jpg" 
-                    class="img-responsive" alt="NOimage">
+                    class="img-responsive" alt="NOimage" data-toggle="collapse" data-target=#beep>
 	    </div>
 	    <div class="panel-footer">
-	       <button type="button" class="btn btn-xs btn-block btn-font10"  
-                title="Click for details" data-toggle="collapse" 
-		data-target="#storage_furniture_footer">Click me for details</button>
-	       <div id="storage_furniture_footer" class="collapse">
 		 <ul>
  		     <li>History: bought in 
 			<a href="http://www.moebelum.de/cms/">Möbelum</a>
@@ -288,7 +291,6 @@
 		     <li>Dimensions: ???????</li>
 		     <li>Availabilty: from now on</li>
  	         </ul>
-	       </div>
 	    </div> 
 
 	 </div>
