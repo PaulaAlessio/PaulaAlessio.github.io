@@ -15,13 +15,21 @@ footer {
   padding: 25px;
 }
 
-img.img-responsive{
+img.img-responsive {
    margin-left:auto;
    margin-right:auto;
    display:block;
    max-height: 200px; !important
    max-width: 200px; !important
    padding-top:5px;
+}
+
+#container {
+  position: relative; !important
+}
+
+#pic2 {
+  position: absolute; !important
 }
 
 /* Center icon vertically in navigation bar*/
