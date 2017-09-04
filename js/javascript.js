@@ -32,11 +32,17 @@ var games_imgs = ['anno_domini.jpg', 'carcassone.jpg', 'dominion_intrigue.jpg',
 'puzzle_jovendelaperla.jpg', 'puzzle_paris.jpg', 'star_realms.jpg']
 
 var sport_imgs = ['basketball.jpg', 'bike1.jpg',  'bike2.jpg',  
-    'bike_bjorn.jpg',  'football.jpg']
+    'bike_bjorn.jpg',  'football.jpg', 'dumbbell.jpg', 'dumbbells.jpg']
 
 var garden_imgs = ['jardineras.jpg', "maceta.jpg"]
 
-var cables_imgs = ['nopics.png', 'umbrella.jpg']
+var cables_imgs = ['umbrella.jpg', 'USB_extension.jpg', 'USB_extension2.jpg',
+'USB_microUSB.jpg', 'USB_miniUSB.jpg', 'USB_socket.jpg', 
+'american_adapter.jpg', 'desktop_plug.jpg', 'english_adapter.jpg',
+'ethernet_cables.jpg', 'mouse.jpg', 'network_cards.jpg',
+'vga.jpg', 'vga2rgb.jpg']
+
+
 
 /**
  *  * Returns a random integer between min (inclusive) and max (inclusive)
