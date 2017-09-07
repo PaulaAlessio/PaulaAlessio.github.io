@@ -21,7 +21,7 @@ var furniture_imgs = ['beach_chair.jpg', 'bed.jpg', 'bookshelf.jpg',
     'chair_1.jpg',  'chair_2.jpg', 'chair_3.jpg', 
     'little_table.jpg', 'sofa_bed.jpg', 'storage_furniture.jpg']
 
-var household_imgs = ['clotheshorse.jpg',  'dehumificator.jpg',  'duvet.jpg',  
+var household_imgs = ['clotheshorse.jpg', 'duvet.jpg',  
     'paperbin.jpg',  'pillow.jpg',  'shoerack1.jpg',  'shoerack2.jpg']
 
 var games_imgs = ['anno_domini.jpg', 'carcassone.jpg', 'dominion_intrigue.jpg', 
